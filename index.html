@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghad Portfolio</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- navbar -->
+        <nav class="dark-bg">
+            <h1>RAGHAD SHAMMOUT</h1>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <div class="main-btn">
+                    MENU
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </label>
+            <ul class="flex-list dark-bg">
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!--end navbar -->
+
+        <!-- hero -->
+        <div class="hero flex">
+            <div class="bg-girl-img dark-bg"><img src="./assets/images/girl-circle.png" alt="profile-img"></div>
+            <h2>RAGHAD SHAMMOUT</h2>
+            <!-- after -->
+            <div class="after flex">
+                <div class="line white-bg"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line white-bg"></div>
+            </div>
+            <p>Front-End developer - Web Designer</p>
+        </div>
+        <!-- end hero -->
+
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- portfolio -->
+        <section id="portfolio" class="portfolio">
+            <h3>PORTFOLIO</h3>
+            <!-- after -->
+            <div class="after flex">
+                <div class="line dark-bg"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line dark-bg"></div>
+            </div>
+
+            <div class="front-end-skills">
+                <div class="img-container html-bg flex">
+                    <div class="img-bg html flex"><img src="./assets/images/html.png" alt="html-logo"></div>
+                </div>
+                <div class="img-container css-bg flex">
+                    <div class="img-bg css flex"><img src="./assets/images/css.png" alt="css-logo"></div>
+                </div>
+                <div class="img-container js-bg flex">
+                    <div class="img-bg js flex"><img src="./assets/images/js.png" alt="js-logo"></div>
+                </div>
+                <div class="img-container bootstrap-bg flex">
+                    <div class="img-bg bootstrap flex"><img src="./assets/images/bootstrap.png" alt="bootstrap-logo">
+                    </div>
+                </div>
+                <div class="img-container git-bg flex">
+                    <div class="img-bg git flex"><img src="./assets/images/git.png" alt="Git-logo"></div>
+                </div>
+                <div class="img-container github-bg flex">
+                    <div class="img-bg github flex"><img src="./assets/images/github.png" alt="GitHub-logo"></div>
+                </div>
+            </div>
+        </section>
+        <!--end portfolio -->
+
+        <!-- About -->
+        <section id="about" class="about flex">
+            <h3>ABOUT</h3>
+            <!-- after -->
+            <div class="after flex">
+                <div class="line white-bg"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line white-bg"></div>
+            </div>
+            <div class="about-text">
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes
+                    the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets
+                    for easy customization.</p>
+                <p>You can create your own custom avatar for the masthead,
+                    change the icon in the dividers, and add your email address to the contact form to make it fully
+                    functional!</p>
+            </div>
+            <button><i class="fa-solid fa-download"></i>
+                Free Download
+            </button>
+        </section>
+        <!-- end about -->
+
+        <!-- Contact Me -->
+        <section id="contact" class="contact-me">
+            <h3>CONTACT ME</h3>
+            <!-- after -->
+            <div class="after flex">
+                <div class="line dark-bg"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line dark-bg"></div>
+            </div>
+            <!-- form -->
+            <form class="contact-form ">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+
+                <div class="btn-container"><button type="submit">Send</button></div>
+            </form>
+        </section>
+        <!--end Contact Me -->
+
+    </main>
+    <!-- end main -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-info flex dark-bg">
+            <div class="info location">
+                <h3>LOCATION</h3>
+                <p>2215 John Daniel Drive
+                    Clark, MO 65243</p>
+            </div>
+            <div class="info">
+                <h3>AROUND THE WEB</h3>
+                <ul class="social-icons flex">
+                    <li class="icon flex">
+                        <a href="https://www.facebook.com/raghad.shamout.3" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="icon flex">
+                        <a href="https://www.twitter.com" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="icon flex">
+                        <a href="https://www.linkedin.com/in/raghad-shammout-604251254/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="icon flex">
+                        <a href="https://www.dribbble.com" target="_blank">
+                            <i class="fa-brands fa-dribbble"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info">
+                <h3>ABOUT FREELANCER</h3>
+                <p>Freelance is a free to use, MIT licensed Bootstrap theme created by
+                    <a href="https://getbootstrap.com/" class="bootstrap" target="_blank">Start Bootstrap </a>.
+                <p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Your Website 2024</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+</body>
+
+</html>
